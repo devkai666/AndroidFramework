@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "/Users/Xingkai/AndroidV8/ITjuzi/app/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/Xingkai/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/Xingkai/AndroidV8/ITjuzi/app/src/main/jni/Android.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003d/Users/Xingkai/Android/AndroidFramework/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/Xingkai/Android/AndroidFramework/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "keypipe-release-armeabi": {
+      "buildCommand": "/Users/Xingkai/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/Xingkai/AndroidV8/ITjuzi/app/src/main/jni/Android.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003d/Users/Xingkai/Android/AndroidFramework/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/Xingkai/Android/AndroidFramework/app/build/intermediates/ndkBuild/release/lib /Users/Xingkai/Android/AndroidFramework/app/build/intermediates/ndkBuild/release/obj/local/armeabi/libkeypipe.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "keypipe",
+      "files": [
+        {
+          "src": "/Users/Xingkai/AndroidV8/ITjuzi/app/src/main/jni/keypipe.cpp",
+          "flags": "\"-gcc-toolchain\" \"/Users/Xingkai/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv5te-none-linux-androideabi14\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/Users/Xingkai/Library/Android/sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/Users/Xingkai/AndroidV8/ITjuzi/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/Xingkai/Library/Android/sdk/ndk-bundle/sysroot\" \"-isystem\" \"/Users/Xingkai/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "/Users/Xingkai/Android/AndroidFramework/app/build/intermediates/ndkBuild/release/obj/local/armeabi/libkeypipe.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cppCompilerExecutable": "/Users/Xingkai/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
